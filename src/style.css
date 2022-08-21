@@ -116,3 +116,16 @@ h1 {
 .inbottom {
   padding-bottom: 15px;
 }
+.created {
+  color: gray;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}

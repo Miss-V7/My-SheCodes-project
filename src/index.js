@@ -1,3 +1,11 @@
+let now = new Date();
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+let day = days[now.getDay()];
+let daynow = document.querySelector(".date");
+daynow.innerHTML = `${day}`;
+
 function searchTemp(response) {
   document.querySelector("#curentTemp").innerHTML =
     Math.round(response.data.main.temp) + "°C";
